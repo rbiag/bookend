@@ -1,0 +1,629 @@
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+main {
+	padding: 0px 50px 0px 50px;
+	margin-top: 150px;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #203F54;
+}
+
+a:hover,
+a:active {
+	text-decoration: underline;
+	color: #F49B89;
+}
+
+
+footer {
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 30px 10px 30px 10px;
+}
+
+
+.hiddenLink a:link,
+.hiddenLink a:visited {
+	color: black;
+}
+
+nav a:link,
+nav a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+	color: #F49B89;
+}
+
+button,
+input[type="submit"] {
+	background-color: Transparent;
+	border-radius: 5px;
+	padding: 10px;
+	border: 1px solid #333333;
+	color: #333333;
+	font-size: 0.8em;
+}
+
+button:hover,
+input[type="submit"]:hover {
+	background-color: #333333;
+	color: white;
+}
+
+#logo {
+	width: 180px;
+	margin: 15px 0px 0px 30px;
+}
+
+#featured {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#featuredImg {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+#featuredContent {
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+#featuredContent h1 {
+	font-size: 3em;
+	margin-bottom: -10px;
+}
+
+#featuredContent h2 {
+	font-size: 2em;
+	margin-bottom: -20px;
+}
+
+#featuredContent p {
+	font-size: 1.6em;
+}
+
+#featured button {
+	font-size: 1em;
+}
+
+.bookList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#profile .bookList {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+
+#profile .bookContainer {
+	padding: 0px;
+}
+
+.bookContainer {
+	padding: 0px 15px 0px 15px;
+}
+
+.bookThumbnail {
+	border-radius: 5px;
+	width: 70%;
+	border: 1px solid #f1f1f1;
+}
+
+.author {
+	margin-top: -15px;
+	color: #777777;
+}
+
+#cta {
+	width: 90%;
+	padding: 50px 30px 50px 30px;
+	background-color: #F4E9D8;
+	border-radius: 5px;
+	margin: 30px 0px 30px 0px;
+}
+
+#cta p {
+	width: 40%;
+	margin-top: -10;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	top: 0px;
+	left: -2px;
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	-webkit-box-shadow: 0 8px 6px -6px #cccccc;
+	-moz-box-shadow: 0 8px 6px -6px #cccccc;
+	box-shadow: 0 8px 6px -6px #cccccc;
+	z-index: 2;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+nav ul li {
+	padding: 15px 10px 0px 10px;
+}
+
+nav input[type="search"] {
+	/*width: 200px;*/
+	border: 1px solid #cccccc;
+}
+
+.searchSelect {
+	margin-right: 5px;
+}
+
+#logo {
+	width: 180px;
+	margin: 15px 0px 0px 30px;
+}
+
+#head-left {
+	width: 48%;
+}
+
+#head-right {
+	padding-left: 10px;
+	padding-right: 30px;
+}
+
+.headIcon {
+	width: 35px;
+	height: auto;
+	margin-top: -10px;
+}
+
+#dropdownContent {
+	flex-direction: column;
+	visibility: hidden;
+	background-color: white;
+	position: absolute;
+	width: 10%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	padding: 12px 16px;
+  	z-index: 1;
+  	margin-left: -150px;
+  	font-size: 0.9em;
+}
+
+/* HOME */
+
+#homeFlex {
+	display: flex;
+}
+
+.sideProfile {
+	background-color: #F7F7F7;
+	top: 12%;
+	left: 0;
+	z-index: 0;
+	padding: 30px 30px 30px 30px;
+	width: 30%;
+}
+
+.mainContent {
+	margin-left: 400;
+}
+
+.profileBio {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.profileBioPic {
+	width: 20%;
+}
+
+.profileBioInfo {
+	width: 50%;
+}
+
+.profilePicBig {
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+	border: #cccccc;
+}
+
+.bookThumbnail {
+	width: 30%;
+	border-radius: 8px;
+}
+
+#profileImg {
+	width: 30px;
+	border-radius: 60%;
+	border: 1px solid #cccccc;
+	padding: 1px;
+	margin-top: -10px;
+}
+
+/* RATINGS */
+.stars {
+	font-size: 1.5em;
+}
+
+.star {
+	color: #E2E2E2;
+}
+
+.starSelected {
+	color: #F49B89;
+}
+
+.stars input[type="radio"]{
+	visibility: hidden;
+}
+
+#ratingStarSelected {
+	color: #F49B89;
+}
+.userPosts{
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+/* MODAL */
+/* The Modal (background) */
+.modal {
+  visibility: hidden; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 20;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#modal,
+#statusModal {
+ 	visibility: hidden; 
+ 	position: fixed; 
+ 	z-index: 1; 
+ 	left: 0;
+ 	top: 0;
+ 	width: 100%; 
+ 	height: 100%; 
+ 	overflow: auto; 
+ 	background-color: rgb(0,0,0); 
+ 	background-color: rgba(0,0,0,0.6); 
+}
+
+.modalContent,
+.statusModalContent {
+ 	background-color: #FFFFFF;
+ 	padding: 20px;
+ 	border: 1px solid #888;
+ 	width: 50%;
+ 	margin: 8% auto;
+}
+
+.commentImg {
+	margin-left: 40px;
+}
+
+#searchPageBook {
+	display: flex;
+}
+
+.searchResult {
+	display: flex;
+	border-bottom: 1px solid #f1f1f1;
+	padding: 20px 10px 20px 10px;
+}
+.searchTitle {
+	border-bottom: 1px solid #f1f1f1;
+}
+.searchResult img {
+	width: 60%;
+	border-radius: 5px;
+	border: 1px solid #f1f1f1;
+}
+
+#searchInfo {
+	width: 40%;
+}
+
+#bookPage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 20px;
+	border-bottom: solid 1px #f1f1f1;
+}
+
+.mainCover {
+	border-radius: 5px;
+	border: 1px solid #f1f1f1;
+}
+
+#bookInfo {
+	width: 60%;
+	padding-left: 60px;
+}
+
+.userReadNames {
+	visibility: hidden;
+}
+
+#ratings {
+	width: 38%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.userReadList {
+	margin-left: 20px;
+	padding: 20px 0px 20px 0px;
+}
+
+.userIcon {
+	width: 35px;
+	height: auto;
+	border-radius: 50%;
+	border: 1px solid #cccccc;
+	margin-top: 10px;
+	margin-left: -20;
+}
+
+.addToList {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+#addToListBtn {
+	background-color: Transparent;
+	border-radius: 5px;
+	border: 1px solid #333333;
+	color: #333333;
+}
+
+#addToListBtn:hover {
+	background-color: #333333;
+	color: white;
+}
+
+#bookCover {
+	width: 20%;
+	padding-right: 30px;
+}
+
+#bookPageTabs {
+	display: flex;
+	justify-content: space-between;
+}
+
+#bookPageDetails {
+	padding-top: 30px;
+	width: 80%;
+	margin: auto;
+}
+
+.selectedTab {
+	border-bottom: 5px solid black;
+}
+
+#bookDetailsTab {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+#publishingInfo, #genres{
+	width: 40%;
+	border: 1px solid #707070;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 0px 10px 10px 10px;
+}
+
+#aboutAuthor {
+	width: 85%;
+	border: 1px solid #707070;
+	border-radius: 5px;
+	padding: 20px;	
+	margin: 10px 10px 10px 10px;
+}
+
+#bookDetailsTab, 
+#bookRelatedTab,
+#bookReviewTab
+ {
+	padding-top: 30px;
+	position: absolute;
+}
+
+#bookReviewTab {
+	width: 80%;
+}
+
+#bookDetailsTab, 
+#bookRelatedTab,
+{
+	visibility: hidden;
+}
+
+#bookReviewParent {
+	width: 100%;
+}
+
+#myReview {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#myReview p {
+	padding-right: 10px;
+}
+
+.formClass {
+	margin: auto;
+	border: solid 1px #707070;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	border-radius: 5px;
+	padding-top: 20px;
+}
+
+.formInput {
+	padding-bottom: 20px;
+}
+
+.form-input {
+	margin-top: 5px;
+	width: 300px;
+	padding: 10px;
+}
+
+.userPost {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.postBlock {
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #f1f1f1;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.postBlock button {
+	padding: 0px;
+	border: 0px;
+}
+
+.postBlock button:hover {
+	color: #F49B89;
+	background-color: transparent;
+}
+
+.postMain {
+	display: flex;
+	justify-content: flex-start;
+}
+
+/*.postImg {
+	width: 30%;
+}*/
+
+.postImg img{
+	width: 30%;
+	border-radius: 50%;
+	border: 1px solid #777777;
+	margin-top: 20px;
+}
+
+.postContent {
+	width: 80%;
+	margin-left: -130px;
+}
+
+.postDate {
+	margin-top: -15px;
+	color: #777777;
+}
+
+.postComments {
+	background-color: #f1f1f1;
+	padding: 10px 10px 5px 10px;
+}
+
+.commentInput {
+	border-radius: 5px;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+	resize: none;
+	height: 10%;
+}
+
+.sendComment{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#homepage,
+#profile {
+	display: flex;
+}
+
+#profile .profileBar {
+	width: 80%;
+	margin: -60px 30px 0px -60px;
+	padding-right: 80px;
+	height: 100%;
+}
+
+.profileBar {
+	background-color: #f1f1f1;
+	margin: -60px 30px 0px -60px;
+	padding: 20px;
+	text-align: center;
+}
+
+.profileBar img {
+	margin: auto;
+}
+
+@media screen and (max-width: 868px){ 
+
+.profileBar {
+	visibility: hidden;
+}
+
+.bookContainer {
+	width: 100%;
+}
+
+}
